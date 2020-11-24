@@ -29,6 +29,42 @@ ReactDOM.render( <App />
  , document.getElementById('root')
 );
 ```
+## ont awesome CDN:
+
+Put the font awesome into the index.html, to allow the app using the font awesome:  
+```
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+```
+[Font Awesome CDN](https://fontawesome.com/account/cdn)  
+
+## <Link>
+
+To utilize the Link from the react-router dom, you need to 1.install the react dom
+```
+ npm install react-router-dom 
+```
+2.import the link from the react-router-dom
+```
+import {Link} from 'react-router-dom';
+```
+
+3.set the a path to the link  
+```
+<Link to="/about">About</Link>
+
+```
+[Link](https://reactrouter.com/web/api/NavLink)   
+
+## BrowserRouter
+<BrowserRouter> to updae the information
+	[<BrowserRouter>](https://reactrouter.com/web/api/BrowserRouter)  
+
+## Using the State
+Utilize the sate(effect change), but you do not need to write the class
+
+[Using the State Hook](https://reactjs.org/docs/hooks-state.html)   
+
+Updae the final change into the app.js file:  
 
 
 
