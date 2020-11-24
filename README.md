@@ -1,8 +1,8 @@
 ## Build the project: follow the link below to build the project:
-1.[hotelReservation README](https://github.com/GlennOu66304/hotelReservation) 
+1.[hotelReservation README](https://github.com/GlennOu66304/hotelReservation)    
 2.initial file:  
 Clean the src file only leave the  
-App.css(empty all the css command)  
+App.css(empty all the css command)    
 App.js:
 ```
 import react from 'react';
