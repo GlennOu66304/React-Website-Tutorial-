@@ -66,6 +66,32 @@ Utilize the sate(effect change), but you do not need to write the class
 
 Updae the final change into the app.js file:  
 
+## ES6 Arrow function: 
+parmaters + arrow => + function details + semicolon
+full code:  
+```
+a => a + 100;
+```
+[Arrow function expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)   
+
+Handle Event in the React:  
+onClick + = + {}
+```
+<button onClick={activateLasers}>
+  Activate Lasers
+</button>
+```
+[Handling Events](https://reactjs.org/docs/handling-events.html)   
+
+## Conditional (ternary) operator
+
+condition +? + exprIfTrue +: + exprIfFalse
+```
+isMember ? '$2.00' : '$10.00'
+```
+
+[Conditional (ternary) operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)  
+
 
 
 ## Resoure:
