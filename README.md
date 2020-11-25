@@ -92,7 +92,15 @@ isMember ? '$2.00' : '$10.00'
 
 [Conditional (ternary) operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)  
 
-
+Bug fixing: Video not playing 
+You need to put the video into the public folder, then change the CSS code int the z-indedx: -1; to the code below: 
+```
+z-index: -1;
+```
+The final code is below:
+```
+<video src='/videos/video-2.mp4' autoPlay loop muted />
+```
 
 ## Resoure:
 ### Project Resource:  
