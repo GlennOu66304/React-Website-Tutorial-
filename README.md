@@ -107,6 +107,28 @@ The final code is below:
 2.Second, you need to remove the extrta spece the css code in the Cards.css
 Like cards__container to cards_container
 
+## Hero section Image and Video shift:  
+
+If you want to change the vide to the image, then you need to delete the code below in the Hero sections.js
+```
+  <video src='/videos/video-2.mp4' autoPlay loop muted />
+ ```
+Then uncomment the code in the below in  the HeroSections.css
+```
+background: url('/src/images/img-home.jpg') center center/cover no-repeat;
+```
+
+Do not leave the semilicon between the image and center.
+
+or replace the video:  
+```
+ <video src='/videos/video-1.mp4' autoPlay loop muted />  
+```
+Make sure that you comment the code below in the HeroSection.css
+```
+background: url('/src/images/img-home.jpg') center center/cover no-repeat;
+```
+
 
 ## Resoure:
 ### Project Resource:  
