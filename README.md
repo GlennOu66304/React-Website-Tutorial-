@@ -1,3 +1,6 @@
+Project Demo:  
+[ADVENTURE AWAITS](https://reacttrip2.herokuapp.com/)
+
 ## Build the project: follow the link below to build the project:
 1.[hotelReservation README](https://github.com/GlennOu66304/hotelReservation)    
 2.initial file:  
@@ -128,7 +131,18 @@ Make sure that you comment the code below in the HeroSection.css
 ```
 background: url('/src/images/img-home.jpg') center center/cover no-repeat;
 ```
+## Upload the Project to the Heroku
+### Bug fixing:  Heroku build failing due to Yarn and npm lockfile conflict
+[Heroku build failing due to Yarn and npm lockfile conflict](https://stackoverflow.com/questions/47238241/heroku-build-failing-due-to-yarn-and-npm-lockfile-conflict)   
 
+### Pushing To Heroku Fails - No Such App Fatal
+[Pushing To Heroku Fails - No Such App Fatal](https://stackoverflow.com/questions/34379130/pushing-to-heroku-fails-no-such-app-fatal)   
+
+
+Main refernece:  
+[How to deploy create-react-app to Heroku](https://www.youtube.com/watch?v=zDiQrgeGTuU)   
+[Deploying React with Zero Configuration](https://blog.heroku.com/deploying-react-with-zero-configuration)   
+[Heroku Buildpack for create-react-app](https://github.com/mars/create-react-app-buildpack#usage)   
 
 ## Resoure:
 ### Project Resource:  
