@@ -102,6 +102,12 @@ The final code is below:
 <video src='/videos/video-2.mp4' autoPlay loop muted />
 ```
 
+# Bug fxing, you could not see the CSS style into the image in img-9.jpg and picture too.  
+1.First you need to move the duplicte image to the public folder;   
+2.Second, you need to remove the extrta spece the css code in the Cards.css
+Like cards__container to cards_container
+
+
 ## Resoure:
 ### Project Resource:  
 [React Website Tutorial - Beginner React JS Project Fully Responsive](https://www.youtube.com/watch?v=I2UBjN5ER4s&list=PLs1fqgQpnCmJSkrDA2wTsSsLnYpE8jpVy&index=4&t=122s)  
