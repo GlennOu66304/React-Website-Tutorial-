@@ -1,3 +1,25 @@
+## 2023.01.01 update :
+
+Bug fix:Error: error:0308010c:digital envelope routines::unsupported [Node Error Solved]
+
+unintall the old verion of react-script
+
+```
+npm uninstall react-scripts 
+```
+
+
+
+Then upgrade to the latest verision of react script
+
+```
+npm install react-scripts 
+```
+
+[Error: error:0308010c:digital envelope routines::unsupported [Node Error Solved]](https://www.freecodecamp.org/news/error-error-0308010c-digital-envelope-routines-unsupported-node-error-solved/)
+
+
+
 Project Demo:  
 [ADVENTURE AWAITS](https://reacttrip2.herokuapp.com/)
 
@@ -115,7 +137,7 @@ Like cards__container to cards_container
 If you want to change the vide to the image, then you need to delete the code below in the Hero sections.js
 ```
   <video src='/videos/video-2.mp4' autoPlay loop muted />
- ```
+```
 Then uncomment the code in the below in  the HeroSections.css
 ```
 background: url('/src/images/img-home.jpg') center center/cover no-repeat;
